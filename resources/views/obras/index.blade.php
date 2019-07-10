@@ -9,8 +9,8 @@
 
     <div class="main" id="main">
     	<div class="container-fluid my-5">
-            <h1 class="f-size-22 py-4 text-center equiser-color wow fadeInUp" data-wow-delay="0s">{{__('msg.available-projects')}} <b>{{Session::get('country')=='usa' ? strtoupper(Session::get('country')) : ucfirst(Session::get('country'))}}</b></h1>
-           <div class="row px-lg-5 px-xl-5 wow fadeInUp" data-wow-delay="0.2s">
+            <h1 class="f-size-22 pt-4 text-center equiser-color wow fadeInUp" data-wow-delay="0s">{{__('msg.available-projects')}} <b>{{Session::get('country')=='usa' ? strtoupper(Session::get('country')) : ucfirst(Session::get('country'))}}</b></h1><hr class="divider" width="5%">
+           <div class="row px-lg-5 pt-4 px-xl-5 wow fadeInUp" data-wow-delay="0.2s">
             @if($obras->count())
             @foreach($obras as $obra)
                 <div class="col-sm-6">

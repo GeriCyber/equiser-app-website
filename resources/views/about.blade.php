@@ -18,6 +18,7 @@
                     <div class="f-right wow fadeInRight" data-wow-delay="0.2s">
                         <div class="right-content">
                             <h2>Equiser</h2>
+                            <hr class="divider" align="left" width="7%">
                             @lang('msg.about-msg-1')
                         </div>
                     </div>
@@ -25,11 +26,11 @@
                 <div class="flex-split align-items-center pt-0 pt-lg-5 pt-xl-5">
                     <div class="f-right">
                         <div class="right-content wow fadeInLeft" data-wow-delay="0.2s">
-                            <h2>{{__('msg.mision-title')}}</h2>
+                            <h2>{{__('msg.mision-title')}}</h2><hr class="divider" align="left" width="8%">
                             <p>
                                 {{__('msg.mision')}}
                             </p>
-                            <h2>{{__('msg.vision-title')}}</h2>
+                            <h2>{{__('msg.vision-title')}}</h2><hr class="divider" align="left" width="8%">
                             <p>
                                 {{__('msg.vision')}}
                             </p>
@@ -49,15 +50,15 @@
                     </div>
                     <div class="f-right wow fadeInRight" data-wow-delay="0.2s">
                         <div class="right-content">
-                            <h2>{{__('msg.quality-policy-title')}}</h2>
+                            <h2>{{__('msg.quality-policy-title')}}</h2><hr class="divider" align="left" width="10%">
                             <p>
                                 @lang('msg.quality-policy')
                             </p>
-                            <h2>{{__('msg.ambient-policy-title')}}</h2>
+                            <h2>{{__('msg.ambient-policy-title')}}</h2><hr class="divider" align="left" width="10%">
                             <p>
                                 @lang('msg.ambient-policy')
                             </p>
-                            <h2>{{__('msg.security-policy-title')}}</h2>
+                            <h2>{{__('msg.security-policy-title')}}</h2><hr class="divider" align="left" width="10%">
                             <p>
                                 @lang('msg.security-policy')
                             </p>
@@ -72,7 +73,7 @@
                 <div class="flex-split align-items-center">
                     <div class="f-right">
                         <div class="right-content wow fadeInLeft" data-wow-delay="0.2s">
-                            <h2>{{__('msg.philosophy')}}</h2>
+                            <h2>{{__('msg.philosophy')}}</h2><hr class="divider" align="left" width="10%">
                             <p>
                             	@lang('msg.philosophy-msg')
                             </p>

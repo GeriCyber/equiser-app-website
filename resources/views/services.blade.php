@@ -18,6 +18,7 @@
                     <div class="f-right wow fadeInRight" data-wow-delay="0.2s">
                         <div class="right-content">
                             <h2>{{__('msg.services-title-1')}}</h2>
+                            <hr class="divider" align="left" width="7%">
                             <p>
                                 @lang('msg.services-1')
                             </p>
@@ -27,7 +28,7 @@
                 <div class="flex-split align-items-center py-0">
                     <div class="f-right">
                         <div class="right-content wow fadeInLeft" data-wow-delay="0.2s">
-                            <h2>{{__('msg.services-title-2')}}</h2>
+                            <h2>{{__('msg.services-title-2')}}</h2><hr class="divider" align="left" width="7%">
                             <p>
                                 {{__('msg.services-2')}}
                             </p>
@@ -47,7 +48,7 @@
                     </div>
                     <div class="f-right wow fadeInRight" data-wow-delay="0.2s">
                         <div class="right-content">
-                            <h2>{{__('msg.services-title-3')}}</h2>
+                            <h2>{{__('msg.services-title-3')}}</h2><hr class="divider" align="left" width="7%">
                             <p>
                                 {{__('msg.services-3')}}
                             </p>
@@ -62,7 +63,7 @@
                 <div class="flex-split align-items-center py-4">
                     <div class="f-right">
                         <div class="right-content wow fadeInLeft" data-wow-delay="0.2s">
-                            <h2>{{__('msg.services-title-4')}}</h2>
+                            <h2>{{__('msg.services-title-4')}}</h2><hr class="divider" align="left" width="7%">
                             <p>
                             	@lang('msg.services-4')
                             </p>
@@ -83,7 +84,7 @@
                     </div>
                     <div class="f-right wow fadeInRight" data-wow-delay="0.2s">
                         <div class="right-content">
-                            <h2>{{__('msg.services-title-5')}}</h2>
+                            <h2>{{__('msg.services-title-5')}}</h2><hr class="divider" align="left" width="7%">
                             <p>
                                 {{__('msg.services-5')}}
                             </p>
